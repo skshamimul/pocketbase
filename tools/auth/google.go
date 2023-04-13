@@ -24,6 +24,7 @@ func NewGoogleProvider() *Google {
 		scopes: []string{
 			"https://www.googleapis.com/auth/userinfo.profile",
 			"https://www.googleapis.com/auth/userinfo.email",
+			"https://www.googleapis.com/auth/calendar",
 		},
 		authUrl:    "https://accounts.google.com/o/oauth2/auth",
 		tokenUrl:   "https://accounts.google.com/o/oauth2/token",
